@@ -1,5 +1,7 @@
 platform :ios,'8.0'
 target 'MoblieCQUPT_iOS' do
+	pod 'AMapLocation-NO-IDFA'
+	pod 'AMap2DMap-NO-IDFA'	
 	pod 'SDWebImage'
 	pod 'AFNetworking','~> 2.6.3'
 	pod 'UIColor+BFPaperColors'

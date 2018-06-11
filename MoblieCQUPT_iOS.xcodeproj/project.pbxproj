@@ -12,6 +12,10 @@
 		3B2661091BA6E40A008632F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2661081BA6E40A008632F3 /* CoreGraphics.framework */; };
 		3B26610B1BA6E417008632F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B26610A1BA6E417008632F3 /* UIKit.framework */; };
 		463E0067C92960DB7BB5B9B7 /* libPods-MoblieCQUPT_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9F3927536C5F686AFC86EF /* libPods-MoblieCQUPT_iOS.a */; };
+		4A082F3120C767DA00C001AE /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 4A082F2D20C767D900C001AE /* Model */; };
+		4A082F3220C767DA00C001AE /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 4A082F2E20C767DA00C001AE /* Source */; };
+		4A082F3320C767DA00C001AE /* HWPoTools in Resources */ = {isa = PBXBuildFile; fileRef = 4A082F2F20C767DA00C001AE /* HWPoTools */; };
+		4A082F3420C767DA00C001AE /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 4A082F3020C767DA00C001AE /* Controller */; };
 		CE41EE121C1FE1A2004C873A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE41EE111C1FE1A2004C873A /* ViewController.m */; };
 		CE4334471BE7C52D000C407D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4334461BE7C52D000C407D /* NotificationCenter.framework */; };
 		CE43344D1BE7C52D000C407D /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43344C1BE7C52D000C407D /* TodayViewController.m */; };
@@ -457,20 +461,6 @@
 		F2F34CD51F43F57100F6B49E /* MostDifficultSubjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F34C551F43F57100F6B49E /* MostDifficultSubjectsViewController.m */; };
 		F2F34CD61F43F57100F6B49E /* StatisticsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F34C571F43F57100F6B49E /* StatisticsTable.m */; };
 		F2F34CD71F43F57100F6B49E /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F34C591F43F57100F6B49E /* HomePageViewController.m */; };
-		F2F34CD81F43F57100F6B49E /* freshman_image_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C5B1F43F57100F6B49E /* freshman_image_comment@2x.png */; };
-		F2F34CD91F43F57100F6B49E /* freshman_image_comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C5C1F43F57100F6B49E /* freshman_image_comment@3x.png */; };
-		F2F34CDA1F43F57100F6B49E /* MT1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C5D1F43F57100F6B49E /* MT1.png */; };
-		F2F34CDB1F43F57100F6B49E /* MT2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C5E1F43F57100F6B49E /* MT2.png */; };
-		F2F34CDC1F43F57100F6B49E /* 占位图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C5F1F43F57100F6B49E /* 占位图@2x.png */; };
-		F2F34CDD1F43F57100F6B49E /* 占位图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C601F43F57100F6B49E /* 占位图@3x.png */; };
-		F2F34CDE1F43F57100F6B49E /* 叉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C611F43F57100F6B49E /* 叉@2x.png */; };
-		F2F34CDF1F43F57100F6B49E /* 叉@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C621F43F57100F6B49E /* 叉@3x.png */; };
-		F2F34CE01F43F57100F6B49E /* 图3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C631F43F57100F6B49E /* 图3@2x.png */; };
-		F2F34CE11F43F57100F6B49E /* 图3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C641F43F57100F6B49E /* 图3@3x.png */; };
-		F2F34CE21F43F57100F6B49E /* 定位@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C651F43F57100F6B49E /* 定位@2x.png */; };
-		F2F34CE31F43F57100F6B49E /* 定位@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C661F43F57100F6B49E /* 定位@3x.png */; };
-		F2F34CE41F43F57100F6B49E /* 搜索@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C671F43F57100F6B49E /* 搜索@2x.png */; };
-		F2F34CE51F43F57100F6B49E /* 搜索@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C681F43F57100F6B49E /* 搜索@3x.png */; };
 		F2F34CE61F43F57100F6B49E /* MaleToFemaleRatioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F34C6A1F43F57100F6B49E /* MaleToFemaleRatioViewController.m */; };
 		F2F34CE71F43F57100F6B49E /* MilitarySongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F34C6C1F43F57100F6B49E /* MilitarySongCell.m */; };
 		F2F34CE81F43F57100F6B49E /* MilitarySongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F34C6D1F43F57100F6B49E /* MilitarySongCell.xib */; };
@@ -568,6 +558,10 @@
 		3B2661061BA6E401008632F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B2661081BA6E40A008632F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3B26610A1BA6E417008632F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A082F2D20C767D900C001AE /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		4A082F2E20C767DA00C001AE /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		4A082F2F20C767DA00C001AE /* HWPoTools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HWPoTools; sourceTree = "<group>"; };
+		4A082F3020C767DA00C001AE /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		BA10D639E65F33ACE628A0EB /* Pods-MoblieCQUPT_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoblieCQUPT_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoblieCQUPT_iOS/Pods-MoblieCQUPT_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		CE25501F1C15BD9500BCDDB8 /* ClassWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ClassWidget.entitlements; sourceTree = "<group>"; };
 		CE41EE101C1FE1A2004C873A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -1208,20 +1202,6 @@
 		F2F34C571F43F57100F6B49E /* StatisticsTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsTable.m; sourceTree = "<group>"; };
 		F2F34C581F43F57100F6B49E /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		F2F34C591F43F57100F6B49E /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		F2F34C5B1F43F57100F6B49E /* freshman_image_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "freshman_image_comment@2x.png"; sourceTree = "<group>"; };
-		F2F34C5C1F43F57100F6B49E /* freshman_image_comment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "freshman_image_comment@3x.png"; sourceTree = "<group>"; };
-		F2F34C5D1F43F57100F6B49E /* MT1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MT1.png; sourceTree = "<group>"; };
-		F2F34C5E1F43F57100F6B49E /* MT2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MT2.png; sourceTree = "<group>"; };
-		F2F34C5F1F43F57100F6B49E /* 占位图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "占位图@2x.png"; sourceTree = "<group>"; };
-		F2F34C601F43F57100F6B49E /* 占位图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "占位图@3x.png"; sourceTree = "<group>"; };
-		F2F34C611F43F57100F6B49E /* 叉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叉@2x.png"; sourceTree = "<group>"; };
-		F2F34C621F43F57100F6B49E /* 叉@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叉@3x.png"; sourceTree = "<group>"; };
-		F2F34C631F43F57100F6B49E /* 图3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图3@2x.png"; sourceTree = "<group>"; };
-		F2F34C641F43F57100F6B49E /* 图3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图3@3x.png"; sourceTree = "<group>"; };
-		F2F34C651F43F57100F6B49E /* 定位@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位@2x.png"; sourceTree = "<group>"; };
-		F2F34C661F43F57100F6B49E /* 定位@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位@3x.png"; sourceTree = "<group>"; };
-		F2F34C671F43F57100F6B49E /* 搜索@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索@2x.png"; sourceTree = "<group>"; };
-		F2F34C681F43F57100F6B49E /* 搜索@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索@3x.png"; sourceTree = "<group>"; };
 		F2F34C691F43F57100F6B49E /* MaleToFemaleRatioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaleToFemaleRatioViewController.h; sourceTree = "<group>"; };
 		F2F34C6A1F43F57100F6B49E /* MaleToFemaleRatioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaleToFemaleRatioViewController.m; sourceTree = "<group>"; };
 		F2F34C6B1F43F57100F6B49E /* MilitarySongCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilitarySongCell.h; sourceTree = "<group>"; };
@@ -1348,6 +1328,17 @@
 				D9F548C41B9CA83F006F5EFF /* SystemConfiguration.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		4A082F2C20C7679400C001AE /* SchoolCar */ = {
+			isa = PBXGroup;
+			children = (
+				4A082F3020C767DA00C001AE /* Controller */,
+				4A082F2F20C767DA00C001AE /* HWPoTools */,
+				4A082F2D20C767D900C001AE /* Model */,
+				4A082F2E20C767DA00C001AE /* Source */,
+			);
+			path = SchoolCar;
 			sourceTree = "<group>";
 		};
 		C66265BA2143171179039C97 /* Pods */ = {
@@ -1561,6 +1552,7 @@
 		F242DA6B1EBCB2BB005AC411 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				4A082F2C20C7679400C001AE /* SchoolCar */,
 				F2F34C2D1F43F57100F6B49E /* FreshMan_2017 */,
 				F20026E91F40336E00360991 /* Map */,
 				F242DF831EBD9E2C005AC411 /* LostAndFound */,
@@ -2611,7 +2603,6 @@
 				F2F34C4F1F43F57100F6B49E /* CQUPTData */,
 				F2F34C581F43F57100F6B49E /* HomePageViewController.h */,
 				F2F34C591F43F57100F6B49E /* HomePageViewController.m */,
-				F2F34C5A1F43F57100F6B49E /* icon */,
 				F2F34C691F43F57100F6B49E /* MaleToFemaleRatioViewController.h */,
 				F2F34C6A1F43F57100F6B49E /* MaleToFemaleRatioViewController.m */,
 				F2F34C6B1F43F57100F6B49E /* MilitarySongCell.h */,
@@ -2690,27 +2681,6 @@
 				F2F34C571F43F57100F6B49E /* StatisticsTable.m */,
 			);
 			path = CQUPTData;
-			sourceTree = "<group>";
-		};
-		F2F34C5A1F43F57100F6B49E /* icon */ = {
-			isa = PBXGroup;
-			children = (
-				F2F34C5B1F43F57100F6B49E /* freshman_image_comment@2x.png */,
-				F2F34C5C1F43F57100F6B49E /* freshman_image_comment@3x.png */,
-				F2F34C5D1F43F57100F6B49E /* MT1.png */,
-				F2F34C5E1F43F57100F6B49E /* MT2.png */,
-				F2F34C5F1F43F57100F6B49E /* 占位图@2x.png */,
-				F2F34C601F43F57100F6B49E /* 占位图@3x.png */,
-				F2F34C611F43F57100F6B49E /* 叉@2x.png */,
-				F2F34C621F43F57100F6B49E /* 叉@3x.png */,
-				F2F34C631F43F57100F6B49E /* 图3@2x.png */,
-				F2F34C641F43F57100F6B49E /* 图3@3x.png */,
-				F2F34C651F43F57100F6B49E /* 定位@2x.png */,
-				F2F34C661F43F57100F6B49E /* 定位@3x.png */,
-				F2F34C671F43F57100F6B49E /* 搜索@2x.png */,
-				F2F34C681F43F57100F6B49E /* 搜索@3x.png */,
-			);
-			path = icon;
 			sourceTree = "<group>";
 		};
 		F2F34C7D1F43F57100F6B49E /* StuStrategyDetailVC */ = {
@@ -2838,7 +2808,6 @@
 				CEF61B271B82BC950014B980 /* Frameworks */,
 				CEF61B281B82BC950014B980 /* Resources */,
 				CE4334561BE7C52D000C407D /* Embed App Extensions */,
-				EE81DFEAA2E9482E22C8C20D /* [CP] Embed Pods Frameworks */,
 				08A429D9F7D3BA74685ED5B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -2872,7 +2841,7 @@
 					};
 					CEF61B291B82BC950014B980 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = HPM8HVK7C6;
+						DevelopmentTeam = Y3UEYST8W9;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -2939,6 +2908,7 @@
 				F200271F1F405B8500360991 /* remind_image_title@3x.png in Resources */,
 				F26D967D1F3C400F0063B024 /* icon_share_qq@2x.png in Resources */,
 				F242DE971EBCB2BC005AC411 /* 无事项@3x.png in Resources */,
+				4A082F3120C767DA00C001AE /* Model in Resources */,
 				F20027061F404BE100360991 /* timeTable_image_add@2x.png in Resources */,
 				F242DDAB1EBCB2BB005AC411 /* buildIcon.png in Resources */,
 				F242DE8C1EBCB2BC005AC411 /* 多课1@2x.png in Resources */,
@@ -2955,10 +2925,8 @@
 				F26D967F1F3C400F0063B024 /* icon_share_qzone@3x.png in Resources */,
 				F20027471F43256200360991 /* 补考安排@2x.png in Resources */,
 				F242DF121EBCB2BC005AC411 /* QGERestDetailViewController.xib in Resources */,
-				F2F34CDB1F43F57100F6B49E /* MT2.png in Resources */,
 				F2F34D0C1F43F57100F6B49E /* 图3@2x.png in Resources */,
 				F200273D1F43256200360991 /* GQtime.png in Resources */,
-				F2F34CD81F43F57100F6B49E /* freshman_image_comment@2x.png in Resources */,
 				F242DDCD1EBCB2BB005AC411 /* lost_image_com@2x.png in Resources */,
 				F242DDF71EBCB2BB005AC411 /* 电费查询@3x.png in Resources */,
 				F242DE931EBCB2BC005AC411 /* 左三角@3x.png in Resources */,
@@ -3008,6 +2976,7 @@
 				F20026DB1F4020FA00360991 /* mine_image_-calendar@2x.png in Resources */,
 				F242DDFB1EBCB2BB005AC411 /* loading@2x.png in Resources */,
 				F242DF031EBCB2BC005AC411 /* ExamScheduleViewController.xib in Resources */,
+				4A082F3320C767DA00C001AE /* HWPoTools in Resources */,
 				F26D968A1F3C400F0063B024 /* topic_image_alltopic@2x.png in Resources */,
 				F242DE881EBCB2BC005AC411 /* 地点@2x.png in Resources */,
 				F20026E41F4020FA00360991 /* mine_image_exam@3x.png in Resources */,
@@ -3060,7 +3029,6 @@
 				F26D965E1F3C400F0063B024 /* MBCommunityCellTableViewCell.xib in Resources */,
 				F242DDF21EBCB2BB005AC411 /* shop@2x.png in Resources */,
 				F20026E11F4020FA00360991 /* mine_image_edit@2x.png in Resources */,
-				F2F34CE31F43F57100F6B49E /* 定位@3x.png in Resources */,
 				F242DE741EBCB2BC005AC411 /* remind0@3x.png in Resources */,
 				F242DDF11EBCB2BB005AC411 /* shakeForShop_new@2x.png in Resources */,
 				F242DDE91EBCB2BB005AC411 /* map@2x.png in Resources */,
@@ -3099,7 +3067,6 @@
 				F242DDD61EBCB2BB005AC411 /* lost_image_lackcate@3x.png in Resources */,
 				F242DFB71EBD9E2C005AC411 /* LostTableViewCell.xib in Resources */,
 				F242DDF01EBCB2BB005AC411 /* shakeForShop@2x.png in Resources */,
-				F2F34CD91F43F57100F6B49E /* freshman_image_comment@3x.png in Resources */,
 				F200273A1F43256200360991 /* emptyClassTag2.png in Resources */,
 				F26D96821F3C400F0063B024 /* icon_share_wechatTimeLine@2x.png in Resources */,
 				F2F34D1E1F43F57100F6B49E /* 返回@3x.png in Resources */,
@@ -3128,25 +3095,20 @@
 				F242DEFC1EBCB2BC005AC411 /* AboutMeTableViewCell.xib in Resources */,
 				F26D967B1F3C400F0063B024 /* icon_share_more@2x.png in Resources */,
 				F2F34D0D1F43F57100F6B49E /* 圆角矩形 2.png in Resources */,
-				F2F34CE41F43F57100F6B49E /* 搜索@2x.png in Resources */,
 				F20027201F405B8500360991 /* remind_image_week@2x.png in Resources */,
 				F242DDED1EBCB2BB005AC411 /* redrock_new@2x.png in Resources */,
 				F2F34D1D1F43F57100F6B49E /* 返回@2x.png in Resources */,
-				F2F34CDD1F43F57100F6B49E /* 占位图@3x.png in Resources */,
 				F26D96851F3C400F0063B024 /* icon_share_weibo@3x.png in Resources */,
 				F242DE531EBCB2BC005AC411 /* LoginViewController.xib in Resources */,
 				F242DE851EBCB2BC005AC411 /* 启动页.jpg in Resources */,
 				F200271B1F405B8500360991 /* remind_image_remind@3x.png in Resources */,
 				F2F34D171F43F57100F6B49E /* 绿色@2x.png in Resources */,
-				F2F34CE11F43F57100F6B49E /* 图3@3x.png in Resources */,
 				F2F34D0F1F43F57100F6B49E /* 定位@2x.png in Resources */,
 				F20026E21F4020FA00360991 /* mine_image_edit@3x.png in Resources */,
-				F2F34CDF1F43F57100F6B49E /* 叉@3x.png in Resources */,
 				F26D96601F3C400F0063B024 /* DetailTopicViewController.xib in Resources */,
 				F242DDD01EBCB2BB005AC411 /* lost_image_describe@3x.png in Resources */,
 				F2F34CE81F43F57100F6B49E /* MilitarySongCell.xib in Resources */,
 				F2F34D211F43F57100F6B49E /* 重邮数据@2x.png in Resources */,
-				F2F34CE51F43F57100F6B49E /* 搜索@3x.png in Resources */,
 				F200273C1F43256200360991 /* GQsection.png in Resources */,
 				F242DDD91EBCB2BB005AC411 /* lost_image_lacktel@2x.png in Resources */,
 				F242DE871EBCB2BC005AC411 /* 周数@3x.png in Resources */,
@@ -3159,6 +3121,7 @@
 				F242DE841EBCB2BC005AC411 /* 删除@3x.png in Resources */,
 				F2F34D261F43F57100F6B49E /* 黄色@3x.png in Resources */,
 				F242DDC61EBCB2BB005AC411 /* cqupt1@2x.jpg in Resources */,
+				4A082F3420C767DA00C001AE /* Controller in Resources */,
 				F26D96711F3C400F0063B024 /* MBCommunityViewController.xib in Resources */,
 				F26D96891F3C400F0063B024 /* topic_image_ frame@2x.png in Resources */,
 				F20026F01F4033D600360991 /* View.xib in Resources */,
@@ -3168,19 +3131,17 @@
 				F242DDDE1EBCB2BB005AC411 /* lost_image_many@3x.png in Resources */,
 				F242DEAA1EBCB2BC005AC411 /* 老师@2x.png in Resources */,
 				F242DDD71EBCB2BB005AC411 /* lost_image_lackplace@2x.png in Resources */,
-				F2F34CE01F43F57100F6B49E /* 图3@2x.png in Resources */,
 				F2F34D151F43F57100F6B49E /* 粉色@2x.png in Resources */,
 				F242DFB41EBD9E2C005AC411 /* IconTableViewCell.xib in Resources */,
 				F200273E1F43256200360991 /* 与我相关@2x.png in Resources */,
-				F2F34CDA1F43F57100F6B49E /* MT1.png in Resources */,
 				F26D96841F3C400F0063B024 /* icon_share_weibo@2x.png in Resources */,
 				F2F34D071F43F57100F6B49E /* 军训特辑@2x.png in Resources */,
+				4A082F3220C767DA00C001AE /* Source in Resources */,
 				F242DDBE1EBCB2BB005AC411 /* rightIcon.png in Resources */,
 				F242DE631EBCB2BC005AC411 /* DetailLessonController.xib in Resources */,
 				F242DE5D1EBCB2BC005AC411 /* DetailRemindTableViewCell.xib in Resources */,
 				F242DDCE1EBCB2BB005AC411 /* lost_image_com@3x.png in Resources */,
 				F242DEF81EBCB2BC005AC411 /* XBSAboutViewController.xib in Resources */,
-				F2F34CE21F43F57100F6B49E /* 定位@2x.png in Resources */,
 				F20027451F43256200360991 /* 空教室@2x.png in Resources */,
 				F2F34D161F43F57100F6B49E /* 粉色@3x.png in Resources */,
 				F20026DE1F4020FA00360991 /* mine_image_-setting@3x.png in Resources */,
@@ -3209,11 +3170,9 @@
 				F242DDEE1EBCB2BB005AC411 /* shake@2x.png in Resources */,
 				F26D96831F3C400F0063B024 /* icon_share_wechatTimeLine@3x.png in Resources */,
 				F2F34D1F1F43F57100F6B49E /* 邮子攻略@2x.png in Resources */,
-				F2F34CDC1F43F57100F6B49E /* 占位图@2x.png in Resources */,
 				F242DDE31EBCB2BB005AC411 /* lost_image_success@2x.png in Resources */,
 				F242DEA01EBCB2BC005AC411 /* 箭头@2x.png in Resources */,
 				F242DE5F1EBCB2BC005AC411 /* RemindTableViewCell.xib in Resources */,
-				F2F34CDE1F43F57100F6B49E /* 叉@2x.png in Resources */,
 				F242DDB51EBCB2BB005AC411 /* leftIcon.png in Resources */,
 				F26D96A41F3C41130063B024 /* login_image_background@3x.png in Resources */,
 				F242DDB31EBCB2BB005AC411 /* roomIcon.png in Resources */,
@@ -3240,9 +3199,48 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoblieCQUPT_iOS/Pods-MoblieCQUPT_iOS-resources.sh",
+				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/GMEmptyFolder@1x.png",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/GMEmptyFolder@2x.png",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/GMSelected.png",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/GMSelected@2x.png",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/GMVideoIcon.png",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/GMVideoIcon@2x.png",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/Base.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/ca.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/de.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/en.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/es.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/fr.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/it.lproj",
+				"${PODS_ROOT}/GMImagePicker/GMImagePicker/pt.lproj",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMEmptyFolder@1x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMEmptyFolder@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMSelected.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMSelected@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMVideoIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMVideoIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Base.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ca.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3255,28 +3253,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoblieCQUPT_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EE81DFEAA2E9482E22C8C20D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoblieCQUPT_iOS/Pods-MoblieCQUPT_iOS-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3665,7 +3651,7 @@
 				CODE_SIGN_ENTITLEMENTS = "MoblieCQUPT_iOS/掌上重邮.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = HPM8HVK7C6;
+				DEVELOPMENT_TEAM = Y3UEYST8W9;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MoblieCQUPT_iOS/PrefixHeader.pch";
@@ -3705,7 +3691,7 @@
 				CODE_SIGN_ENTITLEMENTS = "MoblieCQUPT_iOS/掌上重邮.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = HPM8HVK7C6;
+				DEVELOPMENT_TEAM = Y3UEYST8W9;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MoblieCQUPT_iOS/PrefixHeader.pch";
